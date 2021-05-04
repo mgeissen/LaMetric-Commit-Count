@@ -68,6 +68,9 @@ dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.springframework.boot:spring-boot-starter-web:2.4.5")
+    implementation("org.springframework.boot:spring-boot-starter-webflux:2.4.5")
+    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions:1.1.3")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.3")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test:2.4.1") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
