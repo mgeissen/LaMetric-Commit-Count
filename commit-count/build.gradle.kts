@@ -1,4 +1,4 @@
-version = "1.0.0"
+version = "1.0.1-SNAPSHOT"
 
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.5.0"
